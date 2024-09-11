@@ -6,7 +6,6 @@ import { createId } from "@paralleldrive/cuid2";
 import { clerkMiddleware, getAuth } from "@hono/clerk-auth";
 import { z } from "zod";
 import { and, eq, inArray } from "drizzle-orm";
-import { error } from "console";
 const app = new Hono()
   .get("/", clerkMiddleware(), async (c) => {
     const auth = getAuth(c);

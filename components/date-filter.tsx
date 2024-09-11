@@ -5,14 +5,6 @@ import { DateRange } from "react-day-picker";
 import { ChevronDown } from "lucide-react";
 import { Calendar } from "./ui/calendar";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "./ui/select";
-import { useGetSummary } from "@/features/summary/api/use-get-summary";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Button } from "./ui/button";
 import { format, subDays } from "date-fns";

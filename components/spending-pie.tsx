@@ -1,8 +1,5 @@
 import { FileSearch, Loader2, PieChart, Radar, Target } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { AreaVariant } from "./area-variant";
-import { BarVariant } from "./bar-variant";
-import { LineVariant } from "./line-variant";
 import { useState } from "react";
 import {
   Select,
